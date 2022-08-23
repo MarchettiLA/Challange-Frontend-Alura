@@ -1,0 +1,112 @@
+{
+  "producto": [
+    {
+      "name": "Agenda Bearded",
+      "imgURL": "../../img/agendas/a-collage-bearded.jpeg",
+      "price": "$2000",
+      "id": "a00",
+      "alt": "Product",
+      "section": "Agendas",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Agenda Collage Girl",
+      "imgURL": "../../img/agendas/a-collage-girl.jpeg",
+      "price": "$1500",
+      "id": "a01",
+      "alt": "Product",
+      "section": "Agendas",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Agenda Docente Luna",
+      "imgURL": "../../img/agendas/a-luna.jpeg",
+      "price": "$2500",
+      "id": "a02",
+      "alt": "Product",
+      "section": "Agendas",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Agenda Ojo",
+      "imgURL": "../../img/agendas/a-ojo.jpeg",
+      "price": "$2000",
+      "id": "a03",
+      "alt": "Product",
+      "section": "Agendas",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Agenda B-MO",
+      "imgURL": "../../img/agendas/a-bmo.jpg",
+      "price": "$750",
+      "id": "a04",
+      "alt": "Product",
+      "section": "Agendas",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Remera Alien",
+      "imgURL": "../../img/remeras/r-alien-1.jpg",
+      "price": "$1200",
+      "id": "a04",
+      "alt": "Product",
+      "section": "Sublimacion",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Remera Circus",
+      "imgURL": "../../img/remeras/r-circo-1.jpg",
+      "price": "$1200",
+      "id": "a04",
+      "alt": "Product",
+      "section": "Sublimacion",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Remera Darth Vader",
+      "imgURL": "../../img/remeras/r-darth-1.jpg",
+      "price": "$1200",
+      "id": "a04",
+      "alt": "Product",
+      "section": "Sublimacion",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "Remera Teatro",
+      "imgURL": "../../img/remeras/r-teatro-1.jpg",
+      "price": "$1200",
+      "id": "a04",
+      "alt": "Product",
+      "section": "Sublimacion",
+      "description": "lorem ipsum bla bla bla",
+      "link": "#"
+    },
+    {
+      "name": "camisa",
+      "imgURL": "https://us.123rf.com/450wm/redrockerz/redrockerz1601/redrockerz160100016/50854987-camisa-de-ilustraci%C3%B3n-de-bosquejo-del-dise%C3%B1o.jpg?ver=6",
+      "price": "$900",
+      "section": "Otros",
+      "link": "#",
+      "description": "lalalalalala que se yo",
+      "id": "N4equMc"
+    },
+    {
+      "name": "Toalla",
+      "imgURL": "https://us.123rf.com/450wm/redrockerz/redrockerz1601/redrockerz160100016/50854987-camisa-de-ilustraci%C3%B3n-de-bosquejo-del-dise%C3%B1o.jpg?ver=6",
+      "price": "$900",
+      "section": "Decoracion",
+      "link": "#",
+      "description": "asfasfas",
+      "id": "OFPsm-v"
+    }
+  ]
+}

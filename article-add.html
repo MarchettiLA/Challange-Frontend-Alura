@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <script src="https://kit.fontawesome.com/cfcf6a399d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/header/header.css">
+        <link rel="stylesheet" href="styles/main/productos.css">
+        <link rel="stylesheet" href="styles/login/login.css">
+        <link rel="stylesheet" href="styles/registro/registro.css">
+        <link rel="stylesheet" href="styles/article-manager/article-manager.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Quicksand:wght@300;400;600&family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>Registro</title>
+    </head>
+    <body class="body-article-add">
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <object data="img/mambo.svg" class="logo__img" type="" alt="Mambo Visual"><h1>Mambo Visual</h1></object>
+            </div>
+
+            <div class="cabecera__search">
+                
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                
+            </div>
+
+            <div class="cabecera__button-container">
+                <button class="button-container__button btn btn-primary">Login</button>
+            </div>
+        
+        </header>
+        <main>
+            <div class="article-manager__container">
+                <h2 class="article-manager__title">Crear articulo</h2>
+                <form class="article-manager__form" data-article-manager-form>
+                    <div class="input-container">
+                        <label for="nombreArt" class="form__label">Nombre Articulo</label>
+                        <input type="text" id="nombreArt" class="form__input" required>
+                    </div>
+                   <div class="input-container">
+                        <label for="descripcion" class="form__label">Descripción</label>
+                        <input type="text" id="descripcion" class="form__input" required>
+                   </div>
+                   <div class="input-container">
+                        <label for="img-url" class="form__label">Img URL</label>
+                        <input type="text" id="img-url" class="form__input" required>
+                   </div>
+                   <div class="input-container">
+                        <label for="precio" class="form__label">Precio</label>
+                        <input type="text" id="precio" class="form__input" required>
+                   </div>
+                   <div class="input-container">
+                        <label for="categoria" class="form__label">Categoría</label>
+                        <select name="categorias" id="categoria" class="form__input">
+                            <option value="Agendas">Agendas</option>
+                            <option value="Decoracion">Decoracion</option>
+                            <option value="Sublimacion">Sublimacion</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                   </div>
+                    <div class="button-container">
+                        <button class="btn btn-primary boton-registro">Agregar</button>
+                    </div>
+                        
+                </form>
+            </div>
+        </main>
+
+        <footer class="pie">
+
+        </footer>
+    </body>
+    <script type="module" src="./script/controllers/article-manager.controller.js"></script>
+</html>

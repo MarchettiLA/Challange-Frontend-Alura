@@ -1,0 +1,32 @@
+.contact-container{
+    background-color: black;
+}
+
+.contact-container__title{
+    color: white;
+    font-size: 2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.contact-container__form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 75%;
+}
+
+.contact__form__input, .contact__form__textarea{
+    border-radius: 24px;
+    margin: .6em 0;
+    padding: .5em;
+}
+
+.contact__form__button{
+    background-color: #0d6efd;
+    border-radius: 12px;
+    color: white;
+    height: 60px;
+    width: 100%;
+}

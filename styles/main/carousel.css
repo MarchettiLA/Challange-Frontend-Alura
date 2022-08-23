@@ -1,0 +1,45 @@
+.contenido-principal{
+    background-color: black;
+}
+
+.contenido-principal__banner{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#prev{
+    background-color: black;
+    border-radius: 50%;
+    height: 2em;
+    margin: auto 0;
+    left: 2em;
+    padding: .5em;
+    width: 2em;
+}
+
+#next{
+    background-color: black;
+    border-radius: 50%;
+    height: 2em;
+    margin:auto 0;
+    padding: .5em;
+    right: 2em;
+    width: 2em;
+}
+
+.carousel__title{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.carousel__details{
+    color: white;
+}
+
+.carousel-inner .carousel-caption{
+    background-color: #00000066;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

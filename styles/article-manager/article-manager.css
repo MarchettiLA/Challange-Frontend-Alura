@@ -1,0 +1,19 @@
+
+.body-article-add{
+    background-color:#ededed;
+    min-height: 100vh;
+}
+
+.article-manager__container{
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.article-manager__title{
+    font-family: var(--primaryFont);
+    margin-top: 1em;
+    text-align: center;
+}
